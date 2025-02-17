@@ -54,7 +54,8 @@ def generate_prompt(original_content, keyword):
     {stored_content}
 
     Strictly format the output as follows:
-    <Optimized Content>
+    Before: {original_content}
+    After (LLM-generated): <Optimized Content>
     """
 
 async def rewrite_content(url, input_text):
