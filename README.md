@@ -17,18 +17,16 @@ This project provides an AI-powered SEO content rewriting tool that extracts kno
 - **crawl4ai**: Web crawling tool to extract content from webpages
 - **asyncio**: For asynchronous execution of web crawling and content rewriting tasks
 
-## Requirements
-To run this project, ensure the following libraries are installed:
 
-- `gradio`
-- `asyncio`
-- `ollama`
-- `faiss-cpu` (or `faiss-gpu` if you have a GPU setup)
-- `numpy`
-- `sentence-transformers`
-- `crawl4ai`
+## Installation:
 
-You can install the required packages using `pip`:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Abarnarajj/SEO-content-Rewritter-neural-Coders.git
+   cd SEO-content-Rewritter-neural-Coders
+   
 
 ```bash
-pip install gradio ollama faiss-cpu numpy sentence-transformers crawl4ai
+python3 -m venv venv
+venv\Scripts\activate # For Windows
+pip install -r requirements.txt
