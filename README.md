@@ -48,11 +48,6 @@ To launch the web interface, run the following command:
 ```bash
 python app.py
 ```
-This will start a Gradio-based web interface where you can input:
-
-**URL:** The URL from which you want to extract content for SEO optimization 🌍
-**Content:** The text you want to rewrite with SEO improvements ✍️
-After entering the data, click Submit, and the tool will crawl the webpage, retrieve the content, and rewrite it based on the website knowledge.
 
 ### Workflow 🔄
 **Enter a URL:** The system will crawl and extract content from the webpage.
