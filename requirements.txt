@@ -1,0 +1,7 @@
+ollama
+faiss-cpu
+numpy
+gradio
+crawl4ai
+sentence-transformers
+asyncio
