@@ -37,9 +37,9 @@ Then, install the required dependencies:
 pip install -r requirements.txt
 ```
 ### 3. Installation of Ollama:
-Ollama is used for the content rewriting functionality in this project. To run the DeepSeek model, follow the steps below:
-Visit the official Ollama website and follow the installation instructions for your operating system (Windows, macOS, or Linux).
-Alternatively, you can use the following command to install Ollama:
+Ollama is used for the content rewriting functionality in this project, utilizing the DeepSeek model. To set up Ollama, please follow the steps below:
+
+Visit the official [Ollama website](https://ollama.com/download) and follow the installation instructions specific to your operating system (Windows, macOS, or Linux).
 ```bash
 ollama run deepseek-r1
 ```
@@ -59,14 +59,14 @@ After entering the data, click Submit, and the tool will crawl the webpage, retr
 **Provide Content:** Input the content you want to improve for SEO.
 **Content Rewriting:** The system will process the extracted content with FAISS for retrieval and rewrite it with SEO optimizations using Ollama's DeepSeek model.
 
-The tool will output SEO-optimized content, as shown below:
+The tool will generate SEO-optimized content as shown below:
+
 ![image](https://github.com/user-attachments/assets/0a003b8f-6d92-473b-a1ad-f8a3ddd65de5)
 
 ## Contributing 🤝
 Feel free to fork the repository, make improvements, and submit pull requests. We welcome contributions!
 
-## License 📄
-This project is licensed under the MIT License. Please see the LICENSE file for details.
+
 
 
 
