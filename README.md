@@ -5,7 +5,7 @@ This project provides an **AI-powered SEO content rewriting tool** that extracts
 ## Key Features 🌟
 - **Web Crawling**: The tool crawls a webpage and extracts its content using `crawl4ai` 🌐.
 - **SEO Content Rewriting**: The extracted website content is used to optimize and rewrite input content for SEO improvements, keyword placement, and readability ✍️.
-- **Fast Execution**: The tool leverages `FAISS` for fast semantic content retrieval and `SentenceTransformer` for embedding and encoding text ⚡.
+- **Efficient Content Retrieval:** The tool utilizes FAISS for semantic content retrieval and SentenceTransformer for text embedding and encoding to ensure accurate and effective content processing ⚡.
 - **Generative AI**: `Ollama (DeepSeek)` is used to generate SEO-optimized content based on the extracted website knowledge 🤖.
 
 ## Tech Stack 🛠️
@@ -50,8 +50,8 @@ python app.py
 ```
 This will start a Gradio-based web interface where you can input:
 
-URL: The URL from which you want to extract content for SEO optimization 🌍
-Content: The text you want to rewrite with SEO improvements ✍️
+**URL:** The URL from which you want to extract content for SEO optimization 🌍
+**Content:** The text you want to rewrite with SEO improvements ✍️
 After entering the data, click Submit, and the tool will crawl the webpage, retrieve the content, and rewrite it based on the website knowledge.
 
 ### Workflow 🔄
