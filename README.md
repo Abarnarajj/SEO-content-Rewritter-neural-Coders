@@ -49,7 +49,7 @@ To launch the web interface, run the following command:
 python app.py
 ```
 
-### Workflow 🔄
+### Workflow: 🔄
 **Enter a URL:** The system will crawl and extract content from the webpage.
 **Provide Content:** Input the content you want to improve for SEO.
 **Content Rewriting:** The system will process the extracted content with FAISS for retrieval and rewrite it with SEO optimizations using Ollama's DeepSeek model.
