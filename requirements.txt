@@ -5,3 +5,4 @@ gradio
 crawl4ai
 sentence-transformers
 asyncio
+sqllite3
